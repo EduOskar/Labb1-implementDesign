@@ -47,7 +47,6 @@ namespace Labb1_implementDesign
             //productFactory.CreateProduct("Dessert");
             IDisch mainCourse = productFactory.CreateProduct("MainCourse");
             IDisch dessert = productFactory.CreateProduct("Dessert");
-
             mainCourse.Operation();
             dessert.Operation();
             
